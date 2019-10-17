@@ -1,0 +1,9 @@
+import numpy as np
+a=np.zeros(101)
+for i in range(2,100):
+    k=2
+    if a[i]==0:
+        print (i)
+        while k*i <= 100:
+            a[k * i]+=1 
+            k+=1
